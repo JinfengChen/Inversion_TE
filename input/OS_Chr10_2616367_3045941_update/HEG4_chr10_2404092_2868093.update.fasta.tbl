@@ -1,0 +1,59 @@
+==================================================
+file name: HEG4_chr10_2404092_2868093.update.fasta
+sequences:             1
+total length:     463967 bp  (440689 bp excl N/X-runs)
+GC level:         42.33 %
+bases masked:     135618 bp ( 29.23 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements           82        62761 bp   13.53 %
+   SINEs:               10         1596 bp    0.34 %
+   Penelope              0            0 bp    0.00 %
+   LINEs:                7         3224 bp    0.69 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4             7         3224 bp    0.69 %
+   LTR elements:        65        57941 bp   12.49 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia          15        13587 bp    2.93 %
+     Gypsy/DIRS1        49        44052 bp    9.49 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons        273        71278 bp   15.36 %
+   hobo-Activator       16         2039 bp    0.44 %
+   Tc1-IS630-Pogo       61        11111 bp    2.39 %
+   En-Spm               41        13636 bp    2.94 %
+   MuDR-IS905           63        24824 bp    5.35 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger    46        10133 bp    2.18 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:            8         1115 bp    0.24 %
+
+Total interspersed repeats:      135154 bp   29.13 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:              1          353 bp    0.08 %
+Simple repeats:          2          111 bp    0.02 %
+Low complexity:          0            0 bp    0.00 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be oryza sativa  
+RepeatMasker version open-3.2.8 , quick mode
+                                     
+run with cross_match version 0.990329
+RepBase Update 20090604, RM database version 20090604

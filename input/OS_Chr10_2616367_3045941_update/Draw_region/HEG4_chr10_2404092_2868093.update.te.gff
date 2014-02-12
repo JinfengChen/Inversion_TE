@@ -1,0 +1,17 @@
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	3265	3508	1697	-	.	ID=TE098;Target=DITTO 1 244;Class=DNA/Tourist;PercDiv=11.5;PercDel=0.0;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	3512	3941	4057	+	.	ID=TE099;Target=MPING 1 430;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	4036	4201	1534	+	.	ID=TE100;Target=MPING 1 166;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	4485	4531	255	+	.	ID=TE101;Target=TNR2A 63 110;Class=DNA;PercDiv=17.0;PercDel=2.1;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	4955	5192	1625	+	.	ID=TE102;Target=STOWAWAY21_OS 1 243;Class=DNA/TcMar-Stowaway;PercDiv=8.8;PercDel=2.1;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	5479	5698	762	-	.	ID=TE103;Target=STOWAWAY41_OS 18 264;Class=DNA/TcMar-Stowaway;PercDiv=16.6;PercDel=13.6;PercIns=1.4;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	6230	6492	1311	-	.	ID=TE104;Target=STOWAWAY41_OS 1 264;Class=DNA/TcMar-Stowaway;PercDiv=16.1;PercDel=1.1;PercIns=0.8;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	7718	7981	1307	+	.	ID=TE105;Target=DITTO3 1 259;Class=DNA/Tourist;PercDiv=16.3;PercDel=3.0;PercIns=4.9;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	10779	10929	1113	+	.	ID=TE196;Target=STOWAWAY1_OS 2 149;Class=DNA/TcMar-Stowaway;PercDiv=6.1;PercDel=0.0;PercIns=2.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	11591	11692	260	+	.	ID=TE197;Target=FOCUS 11 114;Class=DNA/Tourist;PercDiv=31.0;PercDel=3.9;PercIns=2.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	11920	11999	413	-	.	ID=TE198;Target=TREP215 18 102;Class=DNA/TcMar-Stowaway;PercDiv=11.2;PercDel=6.2;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	12014	12166	406	-	.	ID=TE199;Target=ID-3 138 289;Class=DNA/Tourist;PercDiv=27.7;PercDel=1.9;PercIns=2.5;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	12167	12397	1490	-	.	ID=TE200;Target=DITTO 14 244;Class=DNA/Tourist;PercDiv=14.7;PercDel=0.0;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	12512	12667	643	-	.	ID=TE201;Target=WANDERER_OS 34 192;Class=DNA/Tourist;PercDiv=21.4;PercDel=3.2;PercIns=1.3;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	13070	13499	4057	-	.	ID=TE202;Target=MPING 1 430;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	13593	14022	4057	-	.	ID=TE203;Target=MPING 1 430;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0;PercIns=0.0;
+HEG4_chr10_2404092_2868093.update	RepeatMasker	Transposon	14370	14524	529	+	.	ID=TE204;Target=OSTE19 2 158;Class=DNA/MuDR;PercDiv=24.0;PercDel=1.9;PercIns=0.7;

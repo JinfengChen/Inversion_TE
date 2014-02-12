@@ -1,0 +1,13 @@
+Chr10	RepeatMasker	Transposon	3276	3519	1722	-	.	ID=TE031111;Target=DITTO 1 244;Class=DNA/Tourist;PercDiv=11.1;PercDel=0.0;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	3921	4076	643	+	.	ID=TE031112;Target=WANDERER_OS 34 192;Class=DNA/Tourist;PercDiv=21.4;PercDel=3.2;PercIns=1.3;
+Chr10	RepeatMasker	Transposon	4191	4421	1503	+	.	ID=TE031113;Target=DITTO 14 244;Class=DNA/Tourist;PercDiv=14.3;PercDel=0.0;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	4422	4574	406	+	.	ID=TE031114;Target=ID-3 138 289;Class=DNA/Tourist;PercDiv=27.7;PercDel=1.9;PercIns=2.5;
+Chr10	RepeatMasker	Transposon	4589	4668	413	+	.	ID=TE031115;Target=TREP215 18 102;Class=DNA/TcMar-Stowaway;PercDiv=11.2;PercDel=6.2;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	4896	4997	260	-	.	ID=TE031116;Target=FOCUS 11 114;Class=DNA/Tourist;PercDiv=31.0;PercDel=3.9;PercIns=2.0;
+Chr10	RepeatMasker	Transposon	5659	5809	1113	-	.	ID=TE031117;Target=STOWAWAY1_OS 2 149;Class=DNA/TcMar-Stowaway;PercDiv=6.1;PercDel=0.0;PercIns=2.0;
+Chr10	RepeatMasker	Transposon	8423	8686	1307	-	.	ID=TE031211;Target=DITTO3 1 259;Class=DNA/Tourist;PercDiv=16.3;PercDel=3.0;PercIns=4.9;
+Chr10	RepeatMasker	Transposon	9912	10174	1311	+	.	ID=TE031212;Target=STOWAWAY41_OS 1 264;Class=DNA/TcMar-Stowaway;PercDiv=16.1;PercDel=1.1;PercIns=0.8;
+Chr10	RepeatMasker	Transposon	10705	10925	769	+	.	ID=TE031213;Target=STOWAWAY41_OS 17 264;Class=DNA/TcMar-Stowaway;PercDiv=16.5;PercDel=13.6;PercIns=1.4;
+Chr10	RepeatMasker	Transposon	11212	11449	1625	-	.	ID=TE031214;Target=STOWAWAY21_OS 1 243;Class=DNA/TcMar-Stowaway;PercDiv=8.8;PercDel=2.1;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	11873	11919	255	-	.	ID=TE031215;Target=TNR2A 63 110;Class=DNA;PercDiv=17.0;PercDel=2.1;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	12631	12785	529	+	.	ID=TE031216;Target=OSTE19 2 158;Class=DNA/MuDR;PercDiv=24.0;PercDel=1.9;PercIns=0.7;

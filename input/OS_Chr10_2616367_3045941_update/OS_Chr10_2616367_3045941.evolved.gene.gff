@@ -1,0 +1,190 @@
+Chr10	MSU_osa1r7	CDS	171	488	.	+	.	Parent=LOC_Os10g05290.1
+Chr10	MSU_osa1r7	mRNA	3131	6675	.	+	.	ID=LOC_Os10g05300.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	3131	3499	.	+	.	Parent=LOC_Os10g05300.1
+Chr10	MSU_osa1r7	CDS	5986	6243	.	+	.	Parent=LOC_Os10g05300.1
+Chr10	MSU_osa1r7	CDS	6319	6675	.	+	.	Parent=LOC_Os10g05300.1
+Chr10	MSU_osa1r7	mRNA	13092	13475	.	-	.	ID=LOC_Os10g05329.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	13092	13475	.	-	.	Parent=LOC_Os10g05329.1
+Chr10	MSU_osa1r7	mRNA	31125	32378	.	-	.	ID=LOC_Os10g05370.1;Name=hypothetical protein;
+Chr10	MSU_osa1r7	CDS	32325	32378	.	-	.	Parent=LOC_Os10g05370.1
+Chr10	MSU_osa1r7	CDS	31125	31793	.	-	.	Parent=LOC_Os10g05370.1
+Chr10	MSU_osa1r7	mRNA	40980	42040	.	+	.	ID=LOC_Os10g05390.1;Name=hypothetical protein;
+Chr10	MSU_osa1r7	CDS	40980	41225	.	+	.	Parent=LOC_Os10g05390.1
+Chr10	MSU_osa1r7	CDS	41400	41525	.	+	.	Parent=LOC_Os10g05390.1
+Chr10	MSU_osa1r7	CDS	41981	42040	.	+	.	Parent=LOC_Os10g05390.1
+Chr10	MSU_osa1r7	mRNA	45944	47896	.	+	.	ID=LOC_Os10g05400.1;Name=OsWAK102 - OsWAK receptor-like cytoplasmic kinase OsWAK-RLCK,expressed;
+Chr10	MSU_osa1r7	CDS	45944	47896	.	+	.	Parent=LOC_Os10g05400.1
+Chr10	MSU_osa1r7	mRNA	50698	52782	.	+	.	ID=LOC_Os10g05410.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	50698	51054	.	+	.	Parent=LOC_Os10g05410.1
+Chr10	MSU_osa1r7	CDS	51100	51406	.	+	.	Parent=LOC_Os10g05410.1
+Chr10	MSU_osa1r7	CDS	51707	52782	.	+	.	Parent=LOC_Os10g05410.1
+Chr10	MSU_osa1r7	mRNA	57772	58873	.	+	.	ID=LOC_Os10g05420.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	57772	57786	.	+	.	Parent=LOC_Os10g05420.1
+Chr10	MSU_osa1r7	CDS	58445	58873	.	+	.	Parent=LOC_Os10g05420.1
+Chr10	MSU_osa1r7	mRNA	60032	61999	.	-	.	ID=LOC_Os10g05430.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	61871	61999	.	-	.	Parent=LOC_Os10g05430.1
+Chr10	MSU_osa1r7	CDS	60032	60091	.	-	.	Parent=LOC_Os10g05430.1
+Chr10	MSU_osa1r7	mRNA	65888	67964	.	+	.	ID=LOC_Os10g05440.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	65888	66496	.	+	.	Parent=LOC_Os10g05440.1
+Chr10	MSU_osa1r7	CDS	66679	67499	.	+	.	Parent=LOC_Os10g05440.1
+Chr10	MSU_osa1r7	CDS	67583	67964	.	+	.	Parent=LOC_Os10g05440.1
+Chr10	MSU_osa1r7	mRNA	70980	71272	.	-	.	ID=LOC_Os10g05450.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	71123	71272	.	-	.	Parent=LOC_Os10g05450.1
+Chr10	MSU_osa1r7	CDS	70980	71036	.	-	.	Parent=LOC_Os10g05450.1
+Chr10	MSU_osa1r7	mRNA	82435	86060	.	-	.	ID=LOC_Os10g05470.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	85743	86060	.	-	.	Parent=LOC_Os10g05470.1
+Chr10	MSU_osa1r7	CDS	85283	85379	.	-	.	Parent=LOC_Os10g05470.1
+Chr10	MSU_osa1r7	CDS	83270	83318	.	-	.	Parent=LOC_Os10g05470.1
+Chr10	MSU_osa1r7	CDS	82756	82937	.	-	.	Parent=LOC_Os10g05470.1
+Chr10	MSU_osa1r7	CDS	82435	82535	.	-	.	Parent=LOC_Os10g05470.1
+Chr10	MSU_osa1r7	mRNA	89158	89982	.	+	.	ID=LOC_Os10g05480.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	89158	89225	.	+	.	Parent=LOC_Os10g05480.1
+Chr10	MSU_osa1r7	CDS	89286	89396	.	+	.	Parent=LOC_Os10g05480.1
+Chr10	MSU_osa1r7	CDS	89477	89558	.	+	.	Parent=LOC_Os10g05480.1
+Chr10	MSU_osa1r7	CDS	89628	89712	.	+	.	Parent=LOC_Os10g05480.1
+Chr10	MSU_osa1r7	CDS	89819	89982	.	+	.	Parent=LOC_Os10g05480.1
+Chr10	MSU_osa1r7	mRNA	92737	95547	.	-	.	ID=LOC_Os10g05490.1;Name=cytochrome P450,putative,expressed;
+Chr10	MSU_osa1r7	CDS	94615	95547	.	-	.	Parent=LOC_Os10g05490.1
+Chr10	MSU_osa1r7	CDS	92796	93410	.	-	.	Parent=LOC_Os10g05490.1
+Chr10	MSU_osa1r7	mRNA	99583	102530	.	-	.	ID=LOC_Os10g05500.1;Name=OsFBX370 - F-box domain containing protein,expressed;
+Chr10	MSU_osa1r7	CDS	101548	102530	.	-	.	Parent=LOC_Os10g05500.1
+Chr10	MSU_osa1r7	CDS	100738	100944	.	-	.	Parent=LOC_Os10g05500.1
+Chr10	MSU_osa1r7	CDS	99859	99868	.	-	.	Parent=LOC_Os10g05500.1
+Chr10	MSU_osa1r7	mRNA	103923	104276	.	+	.	ID=LOC_Os10g05510.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	103923	104276	.	+	.	Parent=LOC_Os10g05510.1
+Chr10	MSU_osa1r7	mRNA	115367	117942	.	-	.	ID=LOC_Os10g05520.1;Name=OsFBX371 - F-box domain containing protein,expressed;
+Chr10	MSU_osa1r7	CDS	116758	117895	.	-	.	Parent=LOC_Os10g05520.1
+Chr10	MSU_osa1r7	CDS	115737	115801	.	-	.	Parent=LOC_Os10g05520.1
+Chr10	MSU_osa1r7	mRNA	124457	125931	.	-	.	ID=LOC_Os10g05530.1;Name=OsFBX372 - F-box domain containing protein,expressed;
+Chr10	MSU_osa1r7	CDS	124598	125860	.	-	.	Parent=LOC_Os10g05530.1
+Chr10	MSU_osa1r7	mRNA	127426	132468	.	-	.	ID=LOC_Os10g05540.1;Name=OsFBX373 - F-box domain containing protein,expressed;
+Chr10	MSU_osa1r7	CDS	131296	132427	.	-	.	Parent=LOC_Os10g05540.1
+Chr10	MSU_osa1r7	CDS	129226	129230	.	-	.	Parent=LOC_Os10g05540.1
+Chr10	MSU_osa1r7	mRNA	136590	137205	.	+	.	ID=LOC_Os10g05550.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	136590	136768	.	+	.	Parent=LOC_Os10g05550.1
+Chr10	MSU_osa1r7	CDS	137043	137205	.	+	.	Parent=LOC_Os10g05550.1
+Chr10	MSU_osa1r7	mRNA	144679	145986	.	-	.	ID=LOC_Os10g05560.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	145793	145986	.	-	.	Parent=LOC_Os10g05560.1
+Chr10	MSU_osa1r7	CDS	145152	145223	.	-	.	Parent=LOC_Os10g05560.1
+Chr10	MSU_osa1r7	CDS	144991	145065	.	-	.	Parent=LOC_Os10g05560.1
+Chr10	MSU_osa1r7	CDS	144837	144935	.	-	.	Parent=LOC_Os10g05560.1
+Chr10	MSU_osa1r7	CDS	144679	144721	.	-	.	Parent=LOC_Os10g05560.1
+Chr10	MSU_osa1r7	mRNA	147672	148538	.	-	.	ID=LOC_Os10g05570.1;Name=receptor protein kinase-like,putative,expressed;
+Chr10	MSU_osa1r7	CDS	148453	148538	.	-	.	Parent=LOC_Os10g05570.1
+Chr10	MSU_osa1r7	CDS	148352	148375	.	-	.	Parent=LOC_Os10g05570.1
+Chr10	MSU_osa1r7	CDS	148049	148120	.	-	.	Parent=LOC_Os10g05570.1
+Chr10	MSU_osa1r7	CDS	147852	147926	.	-	.	Parent=LOC_Os10g05570.1
+Chr10	MSU_osa1r7	CDS	147672	147747	.	-	.	Parent=LOC_Os10g05570.1
+Chr10	MSU_osa1r7	mRNA	157101	158608	.	+	.	ID=LOC_Os10g05580.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	157101	157136	.	+	.	Parent=LOC_Os10g05580.1
+Chr10	MSU_osa1r7	CDS	157937	158224	.	+	.	Parent=LOC_Os10g05580.1
+Chr10	MSU_osa1r7	CDS	158255	158608	.	+	.	Parent=LOC_Os10g05580.1
+Chr10	MSU_osa1r7	mRNA	164536	167191	.	-	.	ID=LOC_Os10g05590.1;Name=OsFBX374 - F-box domain containing protein,expressed;
+Chr10	MSU_osa1r7	CDS	166439	167191	.	-	.	Parent=LOC_Os10g05590.1
+Chr10	MSU_osa1r7	CDS	166059	166356	.	-	.	Parent=LOC_Os10g05590.1
+Chr10	MSU_osa1r7	CDS	164536	164591	.	-	.	Parent=LOC_Os10g05590.1
+Chr10	MSU_osa1r7	mRNA	178565	180744	.	-	.	ID=LOC_Os10g05600.1;Name=thaumatin-like protein  precursor,putative,expressed;
+Chr10	MSU_osa1r7	CDS	180487	180553	.	-	.	Parent=LOC_Os10g05600.1
+Chr10	MSU_osa1r7	CDS	179652	180387	.	-	.	Parent=LOC_Os10g05600.1
+Chr10	MSU_osa1r7	CDS	178892	179258	.	-	.	Parent=LOC_Os10g05600.1
+Chr10	MSU_osa1r7	mRNA	185994	186402	.	+	.	ID=LOC_Os10g05610.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	185994	186122	.	+	.	Parent=LOC_Os10g05610.1
+Chr10	MSU_osa1r7	CDS	186322	186402	.	+	.	Parent=LOC_Os10g05610.1
+Chr10	MSU_osa1r7	mRNA	197645	197899	.	-	.	ID=LOC_Os10g05630.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	197645	197899	.	-	.	Parent=LOC_Os10g05630.1
+Chr10	MSU_osa1r7	mRNA	213217	214864	.	+	.	ID=LOC_Os10g05660.1;Name=thaumatin,putative,expressed;
+Chr10	MSU_osa1r7	CDS	213328	214121	.	+	.	Parent=LOC_Os10g05660.1
+Chr10	MSU_osa1r7	CDS	214681	214864	.	+	.	Parent=LOC_Os10g05660.1
+Chr10	MSU_osa1r7	mRNA	227360	229553	.	+	.	ID=LOC_Os10g05680.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	227486	227950	.	+	.	Parent=LOC_Os10g05680.1
+Chr10	MSU_osa1r7	mRNA	233662	239875	.	-	.	ID=LOC_Os10g05690.1;Name=transmembrane amino acid transporter protein,putative,expressed;
+Chr10	MSU_osa1r7	CDS	240210	240617	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	239705	240001	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	239313	239410	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	236221	236686	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	234023	234397	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	mRNA	270225	271511	.	+	.	ID=LOC_Os10g05720.1;Name=LTPL37 - Protease inhibitor/seed storage/LTP family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	270447	270794	.	+	.	Parent=LOC_Os10g05720.1
+Chr10	MSU_osa1r7	mRNA	270225	274709	.	-	.	ID=LOC_Os10g05730.1;Name=armadillo/beta-catenin repeat family protein,putative,expressed;
+Chr10	MSU_osa1r7	CDS	272546	274528	.	-	.	Parent=LOC_Os10g05730.1
+Chr10	MSU_osa1r7	mRNA	279330	280963	.	-	.	ID=LOC_Os10g05740.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	280697	280963	.	-	.	Parent=LOC_Os10g05740.1
+Chr10	MSU_osa1r7	CDS	279666	279779	.	-	.	Parent=LOC_Os10g05740.1
+Chr10	MSU_osa1r7	CDS	279330	279512	.	-	.	Parent=LOC_Os10g05740.1
+Chr10	MSU_osa1r7	mRNA	282548	284126	.	-	.	ID=LOC_Os10g05750.1;Name=POEI3 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	283761	283935	.	-	.	Parent=LOC_Os10g05750.1
+Chr10	MSU_osa1r7	CDS	282830	283470	.	-	.	Parent=LOC_Os10g05750.1
+Chr10	MSU_osa1r7	mRNA	290066	293303	.	+	.	ID=LOC_Os10g05770.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	290066	290111	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	CDS	290868	290938	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	CDS	291614	291662	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	CDS	291784	292029	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	CDS	292566	292687	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	CDS	292896	292988	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	CDS	293109	293303	.	+	.	Parent=LOC_Os10g05770.1
+Chr10	MSU_osa1r7	mRNA	297686	299645	.	-	.	ID=LOC_Os10g05780.1;Name=POT domain containing peptide transporter,putative,expressed;
+Chr10	MSU_osa1r7	CDS	299477	299588	.	-	.	Parent=LOC_Os10g05780.1
+Chr10	MSU_osa1r7	CDS	297833	299382	.	-	.	Parent=LOC_Os10g05780.1
+Chr10	MSU_osa1r7	mRNA	306698	308610	.	-	.	ID=LOC_Os10g05790.1;Name=POEI4 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	308398	308557	.	-	.	Parent=LOC_Os10g05790.1
+Chr10	MSU_osa1r7	CDS	306956	307701	.	-	.	Parent=LOC_Os10g05790.1
+Chr10	MSU_osa1r7	mRNA	310166	319129	.	-	.	ID=LOC_Os10g05800.2;Name=F-box protein family,AtFBL4,putative,expressed;
+Chr10	MSU_osa1r7	CDS	318691	318993	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	318175	318432	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	317399	317808	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	314719	314904	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	313124	313313	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	311445	311521	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	311006	311156	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	CDS	310524	310823	.	-	.	Parent=LOC_Os10g05800.2
+Chr10	MSU_osa1r7	mRNA	326733	327897	.	-	.	ID=LOC_Os10g05820.1;Name=POEI5 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	327683	327833	.	-	.	Parent=LOC_Os10g05820.1
+Chr10	MSU_osa1r7	CDS	327072	327580	.	-	.	Parent=LOC_Os10g05820.1
+Chr10	MSU_osa1r7	mRNA	335137	336021	.	-	.	ID=LOC_Os10g05840.1;Name=POEI6 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	335808	335819	.	-	.	Parent=LOC_Os10g05840.1
+Chr10	MSU_osa1r7	CDS	335137	335697	.	-	.	Parent=LOC_Os10g05840.1
+Chr10	MSU_osa1r7	mRNA	343824	344961	.	-	.	ID=LOC_Os10g05860.1;Name=POEI7 - Pollen Ole e I allergen and extensin family protein precursor,putative,expressed;
+Chr10	MSU_osa1r7	CDS	344723	344888	.	-	.	Parent=LOC_Os10g05860.1
+Chr10	MSU_osa1r7	CDS	344112	344620	.	-	.	Parent=LOC_Os10g05860.1
+Chr10	MSU_osa1r7	mRNA	351852	352653	.	-	.	ID=LOC_Os10g05880.1;Name=POEI8 - Pollen Ole e I allergen and extensin family protein precursor,putative,expressed;
+Chr10	MSU_osa1r7	CDS	352464	352653	.	-	.	Parent=LOC_Os10g05880.1
+Chr10	MSU_osa1r7	CDS	351852	352360	.	-	.	Parent=LOC_Os10g05880.1
+Chr10	MSU_osa1r7	mRNA	355744	357410	.	-	.	ID=LOC_Os10g05890.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	357294	357410	.	-	.	Parent=LOC_Os10g05890.1
+Chr10	MSU_osa1r7	CDS	356642	357004	.	-	.	Parent=LOC_Os10g05890.1
+Chr10	MSU_osa1r7	CDS	355744	355851	.	-	.	Parent=LOC_Os10g05890.1
+Chr10	MSU_osa1r7	mRNA	363354	366438	.	+	.	ID=LOC_Os10g05900.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	363823	363864	.	+	.	Parent=LOC_Os10g05900.1
+Chr10	MSU_osa1r7	CDS	364019	364069	.	+	.	Parent=LOC_Os10g05900.1
+Chr10	MSU_osa1r7	CDS	364150	364266	.	+	.	Parent=LOC_Os10g05900.1
+Chr10	MSU_osa1r7	CDS	364409	364486	.	+	.	Parent=LOC_Os10g05900.1
+Chr10	MSU_osa1r7	CDS	364957	365096	.	+	.	Parent=LOC_Os10g05900.1
+Chr10	MSU_osa1r7	CDS	365211	365277	.	+	.	Parent=LOC_Os10g05900.1
+Chr10	MSU_osa1r7	mRNA	366552	367560	.	-	.	ID=LOC_Os10g05910.1;Name=POEI9 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	367332	367503	.	-	.	Parent=LOC_Os10g05910.1
+Chr10	MSU_osa1r7	CDS	366787	367235	.	-	.	Parent=LOC_Os10g05910.1
+Chr10	MSU_osa1r7	mRNA	375829	376948	.	+	.	ID=LOC_Os10g05930.1;Name=POEI10 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	375888	376059	.	+	.	Parent=LOC_Os10g05930.1
+Chr10	MSU_osa1r7	CDS	376163	376626	.	+	.	Parent=LOC_Os10g05930.1
+Chr10	MSU_osa1r7	mRNA	380328	382994	.	+	.	ID=LOC_Os10g05940.1;Name=expressed protein;
+Chr10	MSU_osa1r7	CDS	380385	380466	.	+	.	Parent=LOC_Os10g05940.1
+Chr10	MSU_osa1r7	CDS	380553	380704	.	+	.	Parent=LOC_Os10g05940.1
+Chr10	MSU_osa1r7	CDS	382604	382684	.	+	.	Parent=LOC_Os10g05940.1
+Chr10	MSU_osa1r7	mRNA	384228	386186	.	-	.	ID=LOC_Os10g05950.1;Name=POEI11 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	385973	386117	.	-	.	Parent=LOC_Os10g05950.1
+Chr10	MSU_osa1r7	CDS	384553	384998	.	-	.	Parent=LOC_Os10g05950.1
+Chr10	MSU_osa1r7	mRNA	388541	389119	.	-	.	ID=LOC_Os10g05960.1;Name=hypothetical protein;
+Chr10	MSU_osa1r7	CDS	389034	389119	.	-	.	Parent=LOC_Os10g05960.1
+Chr10	MSU_osa1r7	CDS	388541	388733	.	-	.	Parent=LOC_Os10g05960.1
+Chr10	MSU_osa1r7	mRNA	397628	398884	.	-	.	ID=LOC_Os10g05970.1;Name=POEI12 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	398665	398818	.	-	.	Parent=LOC_Os10g05970.1
+Chr10	MSU_osa1r7	CDS	398030	398550	.	-	.	Parent=LOC_Os10g05970.1
+Chr10	MSU_osa1r7	mRNA	401818	403006	.	+	.	ID=LOC_Os10g05980.1;Name=POEI13 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	401869	402022	.	+	.	Parent=LOC_Os10g05980.1
+Chr10	MSU_osa1r7	CDS	402171	402706	.	+	.	Parent=LOC_Os10g05980.1
+Chr10	MSU_osa1r7	mRNA	405633	407069	.	+	.	ID=LOC_Os10g05990.1;Name=POEI14 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	405698	405851	.	+	.	Parent=LOC_Os10g05990.1
+Chr10	MSU_osa1r7	CDS	406204	406739	.	+	.	Parent=LOC_Os10g05990.1
+Chr10	MSU_osa1r7	mRNA	416549	417652	.	+	.	ID=LOC_Os10g06000.1;Name=POEI15 - Pollen Ole e I allergen and extensin family protein precursor,expressed;
+Chr10	MSU_osa1r7	CDS	416608	416761	.	+	.	Parent=LOC_Os10g06000.1
+Chr10	MSU_osa1r7	CDS	416877	417412	.	+	.	Parent=LOC_Os10g06000.1

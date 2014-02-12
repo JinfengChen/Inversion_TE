@@ -1,0 +1,9 @@
+Chr10	MSU_osa1r7	mRNA	630	3205	.	-	.	ID=LOC_Os10g05520.1;Name=OsFBX371 - F-box domain containing protein,expressed;
+Chr10	MSU_osa1r7	CDS	2021	3158	.	-	.	Parent=LOC_Os10g05520.1
+Chr10	MSU_osa1r7	CDS	1000	1064	.	-	.	Parent=LOC_Os10g05520.1
+Chr10	MSU_osa1r7	mRNA	8070	14283	.	-	.	ID=LOC_Os10g05690.1;Name=transmembrane amino acid transporter protein,putative,expressed;
+Chr10	MSU_osa1r7	CDS	14618	15025	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	14113	14409	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	13721	13818	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	10629	11094	.	-	.	Parent=LOC_Os10g05690.1
+Chr10	MSU_osa1r7	CDS	8431	8805	.	-	.	Parent=LOC_Os10g05690.1

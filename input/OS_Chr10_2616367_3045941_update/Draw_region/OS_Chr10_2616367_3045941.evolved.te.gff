@@ -1,0 +1,16 @@
+Chr10	RepeatMasker	Transposon	3276	3519	1722	-	.	ID=TE031111;Target=DITTO 1 244;Class=DNA/Tourist;PercDiv=11.1;PercDel=0.0;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	3522	3952	4057	+	.	ID=Add3Target=MPING 1 430;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0    ;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	4354	4509	643	+	.	ID=TE031112;Target=WANDERER_OS 34 192;Class=DNA/Tourist;PercDiv=21.4;PercDel=3.2;PercIns=1.3;
+Chr10	RepeatMasker	Transposon	4624	4854	1503	+	.	ID=TE031113;Target=DITTO 14 244;Class=DNA/Tourist;PercDiv=14.3;PercDel=0.0;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	4855	5007	406	+	.	ID=TE031114;Target=ID-3 138 289;Class=DNA/Tourist;PercDiv=27.7;PercDel=1.9;PercIns=2.5;
+Chr10	RepeatMasker	Transposon	5022	5101	413	+	.	ID=TE031115;Target=TREP215 18 102;Class=DNA/TcMar-Stowaway;PercDiv=11.2;PercDel=6.2;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	5329	5430	260	-	.	ID=TE031116;Target=FOCUS 11 114;Class=DNA/Tourist;PercDiv=31.0;PercDel=3.9;PercIns=2.0;
+Chr10	RepeatMasker	Transposon	6092	6242	1113	-	.	ID=TE031117;Target=STOWAWAY1_OS 2 149;Class=DNA/TcMar-Stowaway;PercDiv=6.1;PercDel=0.0;PercIns=2.0;
+Chr10	RepeatMasker	Transposon	8856	9119	1307	-	.	ID=TE031211;Target=DITTO3 1 259;Class=DNA/Tourist;PercDiv=16.3;PercDel=3.0;PercIns=4.9;
+Chr10	RepeatMasker	Transposon	10345	10607	1311	+	.	ID=TE031212;Target=STOWAWAY41_OS 1 264;Class=DNA/TcMar-Stowaway;PercDiv=16.1;PercDel=1.1;PercIns=0.8;
+Chr10	RepeatMasker	Transposon	11138	11358	769	+	.	ID=TE031213;Target=STOWAWAY41_OS 17 264;Class=DNA/TcMar-Stowaway;PercDiv=16.5;PercDel=13.6;PercIns=1.4;
+Chr10	RepeatMasker	Transposon	11645	11882	1625	-	.	ID=TE031214;Target=STOWAWAY21_OS 1 243;Class=DNA/TcMar-Stowaway;PercDiv=8.8;PercDel=2.1;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	12306	12352	255	-	.	ID=TE031215;Target=TNR2A 63 110;Class=DNA;PercDiv=17.0;PercDel=2.1;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	12629	13059	4057	-	.	ID=Add2Target=MPING 1 430;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0    ;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	13152	13582	4057	-	.	ID=Add1Target=MPING 1 430;Class=DNA/Harbinger;PercDiv=0.0;PercDel=0.0    ;PercIns=0.0;
+Chr10	RepeatMasker	Transposon	13930	14084	529	+	.	ID=TE031216;Target=OSTE19 2 158;Class=DNA/MuDR;PercDiv=24.0;PercDel=1.9;PercIns=0.7;

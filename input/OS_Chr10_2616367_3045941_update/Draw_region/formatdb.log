@@ -1,0 +1,336 @@
+
+========================[ Feb 12, 2014  1:13 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:13 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:13 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:13 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta
+
+========================[ Feb 12, 2014  1:25 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:25 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:25 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:25 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta.nin
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta.nin
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta.nsq
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta.nsq
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta.nsq
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OG_10_2247279_2720175.fasta.nin
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OG_10_2247279_2720175.fasta.nsq
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta.nin
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_OS_Chr10_2616367_3045941.evolved), 5 illegal characters were removed:
+2 Es, 1 L, 2 Os
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta.nhr
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_OS_Chr10_2616367_3045941.fasta.n), 1 illegal character was removed:
+1 O
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta.nhr
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_HEG4_chr10_2404092_2868093.updat), 3 illegal characters were removed:
+2 Es, 1 P
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta.nhr
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta
+
+========================[ Feb 12, 2014  1:29 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_OG_10_2247279_2720175.fasta.nhr), 1 illegal character was removed:
+1 O
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta.nhr
+
+========================[ Feb 12, 2014  1:32 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:32 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:32 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:32 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta.nin
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta.nin
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta.nsq
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta.nsq
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta.nsq
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OG_10_2247279_2720175.fasta.nin
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta.nsq"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database OG_10_2247279_2720175.fasta.nsq
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta.nin"
+FDBFinish: Empty nucleotide database...
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta.nin
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_OS_Chr10_2616367_3045941.evolved), 5 illegal characters were removed:
+2 Es, 1 L, 2 Os
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta.nhr
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_OS_Chr10_2616367_3045941.fasta.n), 1 illegal character was removed:
+1 O
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta.nhr
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_HEG4_chr10_2404092_2868093.updat), 3 illegal characters were removed:
+2 Es, 1 P
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta.nhr
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta
+
+========================[ Feb 12, 2014  1:33 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta.nhr"
+WARNING: [000.000] Sequence number 1 (lcl|1_OG_10_2247279_2720175.fasta.nhr), 1 illegal character was removed:
+1 O
+
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta.nhr
+
+========================[ Feb 12, 2014  1:36 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:36 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:36 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:36 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta
+
+========================[ Feb 12, 2014  1:39 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OG_10_2247279_2720175.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OG_10_2247279_2720175.fasta
+
+========================[ Feb 12, 2014  1:39 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "HEG4_chr10_2404092_2868093.update.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database HEG4_chr10_2404092_2868093.update.fasta
+
+========================[ Feb 12, 2014  1:39 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.fasta
+
+========================[ Feb 12, 2014  1:39 PM ]========================
+Version 2.2.21 [Jun-14-2009]
+Started database file "OS_Chr10_2616367_3045941.evolved.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database OS_Chr10_2616367_3045941.evolved.fasta

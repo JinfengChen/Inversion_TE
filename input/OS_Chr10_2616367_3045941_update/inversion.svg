@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<line style="stroke: black" x1="300" x2="650.376" y1="95" y2="95" />
+	<text x="110" y="95">OG_10_2247279_2720175</text>
+	<line style="stroke: brown" x1="588" x2="725.664" y1="101" y2="101" />
+	<rect height="8" style="fill: brown" width="9" x="588" y="97" />
+	<rect height="8" style="fill: brown" width="11.184" x="640.68" y="97" />
+	<rect height="8" style="fill: brown" width="2.352" x="694.848" y="97" />
+	<rect height="8" style="fill: brown" width="7.128" x="704.28" y="97" />
+	<rect height="8" style="fill: brown" width="9.792" x="715.896" y="97" />
+	<line style="stroke: brown" x1="324" x2="372.744" y1="101" y2="101" />
+	<rect height="8" style="fill: brown" width="1.56" x="324" y="97" />
+	<rect height="8" style="fill: brown" width="27.312" x="345.456" y="97" />
+	<polyline points="414.24,97 416.664,97 416.664,105 414.24,105 " style="fill: black" />
+	<polyline points="397.584,93 403.104,93 403.104,85 397.584,85 " style="fill: black" />
+	<polyline points="665.112,97 670.776,97 670.776,105 665.112,105 " style="fill: black" />
+	<polyline points="652.896,93 658.152,93 658.152,85 652.896,85 " style="fill: black" />
+	<polyline points="432.552,97 435.864,97 435.864,105 432.552,105 " style="fill: black" />
+	<polyline points="391.536,93 394.8,93 394.8,85 391.536,85 " style="fill: black" />
+	<polyline points="699.936,93 703.584,93 703.584,85 699.936,85 " style="fill: black" />
+	<polyline points="553.104,93 555.552,93 555.552,85 553.104,85 " style="fill: black" />
+	<polyline points="598.2,97 604.224,97 604.224,105 598.2,105 " style="fill: black" />
+	<polyline points="633.864,93 640.152,93 640.152,85 633.864,85 " style="fill: black" />
+	<polyline points="375.576,97 381.408,97 381.408,105 375.576,105 " style="fill: black" />
+	<polyline points="555.576,93 561.264,93 561.264,85 555.576,85 " style="fill: black" />
+	<polyline points="403.128,93 406.776,93 406.776,85 403.128,85 " style="fill: black" />
+	<polyline points="407.136,93 409.032,93 409.032,85 407.136,85 " style="fill: black" />
+	<polyline points="562.944,97 564.528,97 564.528,105 562.944,105 " style="fill: black" />
+	<line style="stroke: black" x1="300" x2="629.448" y1="195" y2="195" />
+	<text x="110" y="195">OS_Chr10_2616367_3045941</text>
+	<line style="stroke: brown" x1="564" x2="701.472" y1="201" y2="201" />
+	<rect height="8" style="fill: brown" width="9" x="564" y="197" />
+	<rect height="8" style="fill: brown" width="11.184" x="616.752" y="197" />
+	<rect height="8" style="fill: brown" width="2.352" x="670.176" y="197" />
+	<rect height="8" style="fill: brown" width="7.128" x="679.584" y="197" />
+	<rect height="8" style="fill: brown" width="9.792" x="691.704" y="197" />
+	<line style="stroke: brown" x1="324" x2="375.792" y1="201" y2="201" />
+	<rect height="8" style="fill: brown" width="1.56" x="324" y="197" />
+	<rect height="8" style="fill: brown" width="27.312" x="348.504" y="197" />
+	<polyline points="406.128,193 409.776,193 409.776,185 406.128,185 " style="fill: black" />
+	<polyline points="400.584,193 406.104,193 406.104,185 400.584,185 " style="fill: black" />
+	<polyline points="657,197 658.104,197 658.104,205 657,205 " style="fill: black" />
+	<polyline points="641.136,197 646.824,197 646.824,205 641.136,205 " style="fill: black" />
+	<polyline points="394.104,193 397.824,193 397.824,185 394.104,185 " style="fill: black" />
+	<polyline points="675.192,193 678.888,193 678.888,185 675.192,185 " style="fill: black" />
+	<polyline points="628.968,193 634.248,193 634.248,185 628.968,185 " style="fill: black" />
+	<polyline points="410.136,193 412.032,193 412.032,185 410.136,185 " style="fill: black" />
+	<polyline points="378.624,197 384.456,197 384.456,205 378.624,205 " style="fill: black" />
+	<polyline points="417.504,197 419.928,197 419.928,205 417.504,205 " style="fill: black" />
+	<polyline points="574.2,197 580.512,197 580.512,205 574.2,205 " style="fill: black" />
+	<polyline points="435.816,197 439.416,197 439.416,205 435.816,205 " style="fill: black" />
+	<polyline points="609.936,193 616.224,193 616.224,185 609.936,185 " style="fill: black" />
+	<line style="stroke: black" x1="300" x2="670.728" y1="295" y2="295" />
+	<text x="110" y="295">OS_Chr10_2616367_3045941.evolved</text>
+	<line style="stroke: brown" x1="573.672" x2="731.928" y1="301" y2="301" />
+	<rect height="8" style="fill: brown" width="9" x="573.672" y="297" />
+	<rect height="8" style="fill: brown" width="11.184" x="626.424" y="297" />
+	<rect height="8" style="fill: brown" width="2.352" x="700.632" y="297" />
+	<rect height="8" style="fill: brown" width="7.128" x="710.04" y="297" />
+	<rect height="8" style="fill: brown" width="9.792" x="722.16" y="297" />
+	<line style="stroke: brown" x1="324" x2="375.792" y1="301" y2="301" />
+	<rect height="8" style="fill: brown" width="1.56" x="324" y="297" />
+	<rect height="8" style="fill: brown" width="27.312" x="348.504" y="297" />
+	<polyline points="416.52,293 420.168,293 420.168,285 416.52,285 " style="fill: black" />
+	<polyline points="650.808,297 656.496,297 656.496,305 650.808,305 " style="fill: black" />
+	<polyline points="638.64,293 643.92,293 643.92,285 638.64,285 " style="fill: black" />
+	<polyline points="420.528,293 422.424,293 422.424,285 420.528,285 " style="fill: black" />
+	<polyline points="427.896,297 430.32,297 430.32,305 427.896,305 " style="fill: black" />
+	<polyline points="619.608,293 625.896,293 625.896,285 619.608,285 " style="fill: black" />
+	<polyline points="544.632,293 550.392,293 550.392,285 544.632,285 " style="fill: black" />
+	<polyline points="410.976,293 416.496,293 416.496,285 410.976,285 " style="fill: black" />
+	<polyline points="384.528,293 394.848,293 394.848,285 384.528,285 " style="fill: black" />
+	<polyline points="666.672,297 667.776,297 667.776,305 666.672,305 " style="fill: black" />
+	<polyline points="404.496,293 408.216,293 408.216,285 404.496,285 " style="fill: black" />
+	<polyline points="705.648,293 709.344,293 709.344,285 705.648,285 " style="fill: black" />
+	<polyline points="686.976,297 697.296,297 697.296,305 686.976,305 " style="fill: black" />
+	<polyline points="378.624,297 384.456,297 384.456,305 378.624,305 " style="fill: black" />
+	<polyline points="583.872,297 590.184,297 590.184,305 583.872,305 " style="fill: black" />
+	<polyline points="446.208,297 449.808,297 449.808,305 446.208,305 " style="fill: black" />
+	<polyline points="674.424,297 684.744,297 684.744,305 674.424,305 " style="fill: black" />
+	<line style="stroke: black" x1="300" x2="529.584" y1="395" y2="395" />
+	<text x="110" y="395">HEG4_chr10_2404092_2868093.update</text>
+	<line style="stroke: brown" x1="627" x2="658.392" y1="401" y2="401" />
+	<rect height="8" style="fill: brown" width="2.448" x="627" y="397" />
+	<rect height="8" style="fill: brown" width="2.448" x="627" y="397" />
+	<rect height="8" style="fill: brown" width="6.336" x="637.08" y="397" />
+	<rect height="8" style="fill: brown" width="6.336" x="637.08" y="397" />
+	<rect height="8" style="fill: brown" width="9.792" x="648.624" y="397" />
+	<rect height="8" style="fill: brown" width="9.792" x="648.624" y="397" />
+	<line style="stroke: brown" x1="326.712" x2="351.528" y1="401" y2="401" />
+	<rect height="8" style="fill: brown" width="24.84" x="326.712" y="397" />
+	<rect height="8" style="fill: brown" width="24.84" x="326.712" y="397" />
+	<polyline points="600.912,397 611.208,397 611.208,405 600.912,405 " style="fill: black" />
+	<polyline points="613.464,397 623.76,397 623.76,405 613.464,405 " style="fill: black" />
+	<polyline points="545.928,393 549.528,393 549.528,385 545.928,385 " style="fill: black" />
+	<polyline points="575.568,397 579.216,397 579.216,405 575.568,405 " style="fill: black" />
+	<polyline points="360.288,393 370.584,393 370.584,385 360.288,385 " style="fill: black" />
+	<polyline points="372.864,393 376.824,393 376.824,385 372.864,385 " style="fill: black" />
+	<polyline points="354.36,397 360.192,397 360.192,405 354.36,405 " style="fill: black" />
+	<polyline points="579.24,397 584.76,397 584.76,405 579.24,405 " style="fill: black" />
+	<polyline points="632.112,393 635.808,393 635.808,385 632.112,385 " style="fill: black" />
+	<polyline points="573.312,397 575.208,397 575.208,405 573.312,405 " style="fill: black" />
+	<polyline points="383.64,393 384.744,393 384.744,385 383.64,385 " style="fill: black" />
+	<polyline points="587.52,397 591.24,397 591.24,405 587.52,405 " style="fill: black" />
+	<polyline points="394.92,393 400.608,393 400.608,385 394.92,385 " style="fill: black" />
+	<polyline points="565.416,393 567.84,393 567.84,385 565.416,385 " style="fill: black" />
+	<polyline points="297.632,110 303.128,110 278.6,180 284.096,180 " style="fill: #778899" />
+	<polyline points="275.552,110 281.048,110 300.632,180 306.128,180 " style="fill: #778899" />
+	<polyline points="332.816,110 335.792,110 335.912,180 338.888,180 " style="fill: #778899" />
+	<polyline points="300.632,210 306.128,210 278.6,280 284.096,280 " style="fill: #778899" />
+	<polyline points="278.6,210 284.096,210 311.024,280 316.52,280 " style="fill: #778899" />
+	<polyline points="335.912,210 339.344,210 346.304,280 349.736,280 " style="fill: #778899" />
+	<polyline points="580.784,310 597.32,310 260.264,380 276.824,380 " style="fill: #778899" />
+	<polyline points="574.424,310 584.84,310 260.192,380 270.608,380 " style="fill: #778899" />
+	<polyline points="284.528,310 294.872,310 513.44,380 523.784,380 " style="fill: #778899" />
+	<polyline points="284.456,310 288.512,310 276.824,380 272.768,380 " style="fill: red" />
+	<polyline points="311.024,310 316.52,310 254.336,380 259.832,380 " style="fill: #778899" />
+	<polyline points="278.6,310 284.096,310 484.712,380 479.216,380 " style="fill: red" />
+	<polyline points="346.304,310 349.736,310 449.432,380 446,380 " style="fill: red" />
+	<!-- 
+	Generated using the Perl SVG Module V2.50
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

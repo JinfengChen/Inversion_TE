@@ -2,19 +2,12 @@
 use Getopt::Long;
 use SVG;
 
-GetOptions (\%opt,"headers:s", "region:s" ,"project:s","help");
+GetOptions (\%opt,"headers:s","project:s","help");
 
 
 my $help=<<USAGE;
 Draw N way using ACT files. Modify the head in \@feature.
-perl $0 --headers --region --project 
---region:
-Regions to draw, other regions will be skiped.
-Name	Start1	End1	Start2	End2
-OG	161178	167039	265109	273845		
-OS	114737	120734	232590	240318
-OS.evolved	114737	121164	232620	241638
-HEG4.update	138420	142951	258982	264015
+perl $0 --headers --project 
 USAGE
 
 
@@ -31,52 +24,88 @@ our $width=800;
 my $svg=SVG->new(width=>$width,height=>$height);
 
 ### common value
-my $rate  = 25000/600; ### kb/width
+#my $rate  =100000/600; ### kb/width
 my @feature=("OG_10_2247279_2720175","OS_Chr10_2616367_3045941","OS_Chr10_2616367_3045941.evolved","HEG4_chr10_2404092_2868093.update");
 #my @feature=split(",",$opt{headers});
 my $maxlen=maxlen(@feature);
-#my $rate  =($maxlen+0.2*$maxlen)/600; ### kb/width
+my $rate  =($maxlen+0.2*$maxlen)/600; ### kb/width
 print "MAX: $maxlen\nRATE: $rate\n";
 
-###Regions
-my $region_draw=read_regions($opt{region});
-
-
 ###draw chromosome feature
-my $firstx=300; ### x of first chromosome
+my $firstx=200; ### x of first chromosome
 my $firsty=95; ### y of first chromosome
 my $yinterval=100;  ### interval between very chromosome, adjust with the number of chromosome to draw
 
 for(my $i=0;$i<@feature;$i++){
-   my $genegff=parseGFF("$feature[$i].gene.gff", $region_draw->{$feature[$i]});
-   my $width=$region_draw->{$feature[$i]}->[4]/$rate;
+   my $genegff=parseGFF("$feature[$i].gene.gff");
+   my $width=getfastalen("$feature[$i].fasta")/$rate;
    my $xx1=$firstx;
    my $xx2=$xx1+$width;
    my $yy1=$firsty+$i*$yinterval;
-   #print "$xx1\t$xx2\t$yy1\n";
    $svg=drawXgene($svg,$genegff,$rate,$xx1,$xx2,$yy1,$feature[$i]);
    if (-f "$feature[$i].te.gff"){
-      my $tegff=parseTEGFF("$feature[$i].te.gff", $region_draw->{$feature[$i]});
+      my $tegff=parseTEGFF("$feature[$i].te.gff");
       $svg=drawXTE($svg,$tegff,$rate,$xx1,$yy1);
    }
 } 
 
 
 ###Draw chromosome links
+my $bary;
 for(my $i=1;$i<@feature;$i++){
    my $act=$feature[$i-1]."VS".$feature[$i]."4ACT";
    my $h1=($i-1)*$yinterval+$firsty+15;
    my $h2=$i*$yinterval+$firsty-15;
-   drawlinkACT($act,$rate,$h1,$h2, $region_draw);
+   $bary=$h2+60;
+   drawlinkACT($act,$rate,$h1,$h2);
 }
 ##
 
+###Draw scale bar
+my $barx1=550;
+my $barx2=$barx1+5000/$rate;
+my $scalebar=$svg->line(
+     x1=>$barx1,y1=>$bary,
+     x2=>$barx2,y2=>$bary,
+     style=>{stroke=>'black'}
+   );
+my $scale=$svg->text(
+     x=>$barx2+5,y=>$bary,
+     style=>{
+         'font-size'=>'70%','text-anchor'=>'start','font-weight'=>'100'
+     }
+)->cdata("5 Kb");
 
+$svg=legend($svg,$barx1-150,$bary-5,"GENE","black");
+$svg=legend($svg,$barx1-100,$bary-5,"LTR","red");
+$svg=legend($svg,$barx1-50,$bary-5,"DNA","blue");
 
 my $outfile="$opt{project}.svg";
 writesvg($outfile,$svg);
 
 #############
+
+sub legend{
+my ($svg,$x,$y,$name,$color)=@_;
+my $xtext=$x+18; 
+ $svg->rectangle(
+            x=>$x,y=>$y,
+            width=>10,height=>10,
+            style=>{
+                fill=>$color
+            }
+ );
+ $svg->text(
+            x=>$xtext,y=>$y+6,
+            style=>{
+               'font-size'=>'70%','text-anchor'=>'start','font-weight'=>'100'
+            }
+ )->cdata($name);
+ 
+return $svg;
+}
+
+
 
 sub maxlen
 {
@@ -140,43 +169,16 @@ return \@com;
 
 sub drawlinkACT
 {
-my ($act,$rate,$h1,$h2, $region)=@_;
+my ($act,$rate,$h1,$h2)=@_;
 my $identity=50;
-my $lencut=100;
+my $lencut=50;
 my @links;
 open IN, "$act" or die "$!";
 while (<IN>){
     chomp $_;
     next if ($_ eq "");
     my @array=split(" ",$_);
-
-    my $region1 = $region->{$array[4]};
-    my $region2 = $region->{$array[7]};
-    if (($array[2] >= $region1->[0] and $array[3] <= $region1->[1]) and ($array[5] >= $region2->[0] and $array[6] <= $region2->[1])){
-       $array[2] = $array[2] - $region1->[0];
-       $array[3] = $array[3] - $region1->[0];
-       $array[5] = $array[5] - $region2->[0];
-       $array[6] = $array[6] - $region2->[0];
-    }elsif(($array[2] >= $region1->[0] and $array[3] <= $region1->[1]) and ($array[5] >= $region2->[2] and $array[6] <= $region2->[3])){
-       $array[2] = $array[2] - $region1->[0];
-       $array[3] = $array[3] - $region1->[0];
-       $array[5] = $array[5] - $region2->[2] + 10000;
-       $array[6] = $array[6] - $region2->[2] + 10000;
-    }elsif(($array[2] >= $region1->[2] and $array[3] <= $region1->[3]) and ($array[5] >= $region2->[0] and $array[6] <= $region2->[1])){
-       $array[2] = $array[2] - $region1->[2] + 10000;
-       $array[3] = $array[3] - $region1->[2] + 10000;
-       $array[5] = $array[5] - $region2->[0];
-       $array[6] = $array[6] - $region2->[0];
-    }elsif(($array[2] >= $region1->[2] and $array[3] <= $region1->[3]) and ($array[5] >= $region2->[2] and $array[6] <= $region2->[3])){
-       $array[2] = $array[2] - $region1->[2] + 10000;
-       $array[3] = $array[3] - $region1->[2] + 10000;
-       $array[5] = $array[5] - $region2->[2] + 10000;
-       $array[6] = $array[6] - $region2->[2] + 10000;
-    }else{
-       next;
-    }
     if ($array[1] >= $identity and $array[3]-$array[2] > $lencut ){
-        print "$array[2]\t$array[3]\t$array[5]\t$array[6]\n";
         push (@links,"$array[2]\t$array[3]\t$array[5]\t$array[6]");
     }
 }
@@ -189,7 +191,7 @@ foreach (@links){
     my $tleft=$unit[2]/$rate+200;
     my $tright=$unit[3]/$rate+200;
     my $color;
-    if ($tright > $tleft){
+    if ($tright < $tleft){
          $color='red';
     }else{
          $color='#778899';
@@ -303,7 +305,6 @@ foreach my $g (keys %$refgenegff){
     my @pos;
     my $strand;
     foreach my $e (@line){
-        #print "$e\n";
         my @unit=split("\t",$e);
         if ($unit[2] eq "mRNA"){
            $strand=$unit[6];
@@ -313,8 +314,7 @@ foreach my $g (keys %$refgenegff){
     }
     @pos=sort {$a->[0] <=> $b->[1]} @pos;
     my $gstart=$pos[0][0]/$rate+$x1;
-    my $gend  =$pos[$#pos][1]/$rate+$x1;
-    #print "$g\t$pos[0][0]\t$gstart\t$pos[$#pos][1]\t$gend\n"; 
+    my $gend  =$pos[$#pos][1]/$rate+$x1; 
     if ($strand eq "+"){
 =pod
        my $geneid=$svg->text(
@@ -327,7 +327,7 @@ foreach my $g (keys %$refgenegff){
        my $geneline=$svg->line(
           x1=>$gstart,y1=>$y-6,
           x2=>$gend,y2=>$y-6,
-          style=>{stroke=>'brown'}
+          style=>{stroke=>'black'}
        );
        foreach my $e (sort {$a->[0] <=> $b->[1]} @pos){
            my $start=$e->[0]/$rate+$x1;
@@ -337,7 +337,7 @@ foreach my $g (keys %$refgenegff){
               x=>$start, y=>$exony,
               width=>$elen,height=>8,
               style=>{
-                fill=>'brown'
+                fill=>'black'
               }
            );
        }   
@@ -353,7 +353,7 @@ foreach my $g (keys %$refgenegff){
        my $geneline=$svg->line(
           x1=>$gstart,y1=>$y+6,
           x2=>$gend,y2=>$y+6,
-          style=>{stroke=>'brown'}
+          style=>{stroke=>'black'}
        );
        foreach my $e (sort {$a->[0] <=> $b->[1]} @pos){
            my $start=$e->[0]/$rate+$x1;
@@ -363,7 +363,7 @@ foreach my $g (keys %$refgenegff){
               x=>$start, y=>$exony,
               width=>$elen,height=>8,
               style=>{
-                fill=>'brown'
+                fill=>'black'
               }
            );
        }
@@ -383,9 +383,9 @@ foreach my $te (keys %$reftegff){
     my $type=$1 if ($line[8]=~/Class=(.*?);/);
         my $color="gray";
     if ($type=~/DNA/){
-       $color="black";
-    }elsif($type=~/LTR/){
        $color="blue";
+    }elsif($type=~/LTR/){
+       $color="red";
     }
     $type=~s/DNA\///;
     $type=~s/LTR\///;
@@ -589,39 +589,26 @@ return $svg;
 #####
 sub parseGFF
 {
-my ($gff, $region)=@_;
+my ($gff)=@_;
 my %hash;  ##hash to store every record by key of Seq_id
 my $seq;   ##Scaffold
 my $id;    ##ID for element
 my $record;##all line for this record
 my $index; ##key, Seq_id
-#print "$region->[0]\t$region->[1]\t$region->[2]\t$region->[3]\n";
 open IN, "$gff" or die "$!";
 while (<IN>){
     chomp $_;
     next if ($_=~/^#/);
     my @unit=split("\t",$_);
-    if ($unit[3] >= $region->[0] and $unit[4] <= $region->[1]){
-       $unit[3] = $unit[3] - $region->[0];
-       $unit[4] = $unit[4] - $region->[0];
-    }elsif($unit[3] >= $region->[2] and $unit[4] <= $region->[3]){
-       $unit[3] = $unit[3] - $region->[2] + 10000;
-       $unit[4] = $unit[4] - $region->[2] + 10000;
-    }else{
-       next;
-    }
-    my $line = join("\t", @unit);
     if ($unit[2]=~/mRNA/){
-        #print "GENE: $unit[3]\t$unit[4]\t$unit[8]\n";
-
         $seq=$unit[0];
         if ($unit[8]=~/ID=(.*?);/ or $unit[8] =~/ID=(.*)/){
             $id=$1;
         }
-        $record="$line\n";
+        $record="$_\n";
         $hash{$id}=$record;
     }elsif($unit[0] eq $seq and $unit[8] =~ /Parent=$id/){
-        $hash{$id}.="$line\n";
+        $hash{$id}.="$_\n";
     }
 
 }
@@ -632,7 +619,7 @@ return \%hash;
 #####
 sub parseTEGFF
 {
-my ($gff, $region)=@_;
+my ($gff)=@_;
 my %hash;  ##hash to store every record by key of Seq_id
 my $seq;   ##Scaffold
 my $id;    ##ID for element
@@ -643,19 +630,9 @@ while (<IN>){
     chomp $_;
     next if ($_=~/^#/);
     my @unit=split("\t",$_);
-    if ($unit[3] >= $region->[0] and $unit[4] <= $region->[1]){
-       $unit[3] = $unit[3] - $region->[0];
-       $unit[4] = $unit[4] - $region->[0];
-    }elsif($unit[3] >= $region->[2] and $unit[4] <= $region->[3]){
-       $unit[3] = $unit[3] - $region->[2] + 10000;
-       $unit[4] = $unit[4] - $region->[2] + 10000;
-    }else{
-       next;
-    }
-    my $line = join("\t", @unit);
     if ($unit[8]=~/ID=(.*?);/ or $unit[8] =~/ID=(.*)/){
         $id=$1;
-        $hash{$id}="$line";
+        $hash{$id}="$_";
     }
 
 }
@@ -672,30 +649,6 @@ open OUT, ">$file" or die "can not open my file";
        print OUT $svg->xmlify;
 close OUT;
        system "/rhome/cjinfeng/software/tools/draw/svg2xxx_release/svg2xxx $file -t pdf -m 700";
-}
-
-
-####
-# Name    Start1  End1    Start2  End2
-# OG      161178  167039  265109  273845          
-# OS      114737  120734  232590  240318
-# OS.evolved      114737  121164  232620  241638
-# HEG4.update     138420  142951  258982  264015
-
-sub read_regions{
-my ($file)=@_;
-my %hash;
-open IN, "$file" or die "$!";
-<IN>;
-while(<IN>){
-    chomp $_;
-    next if ($_=~/^$/);
-    my @unit=split("\t",$_);
-    my $length = $unit[2] - $unit[1] + 1 + $unit[4] - $unit[3] + 1;
-    $hash{$unit[0]}=[$unit[1],$unit[2],$unit[3],$unit[4], $length];
-}
-close IN;
-return \%hash;
 }
 
 
