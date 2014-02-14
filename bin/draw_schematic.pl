@@ -21,34 +21,63 @@ if ($opt{help} or keys %opt < 1){
 
 
 
-my $svg=SVG->new(width=>800,height=>600);
-
+my $svg=SVG->new(width=>800,height=>700);
+$svg = NB();
 $svg = Pre_inversion();
 $svg = Inversion_intrachr();
+$svg = HEG4();
 my $outfile="$opt{project}.svg";
 writesvg($outfile,$svg);
 
 ################
+sub NB{
+my $xstart=100; ## x start of line
+my $ystart=60; ## y start of line
+my $interval=100; ## interval between different strain
+my $width=30; ## width of chr
+#### title
+my $title=$svg->text(
+     x=>$xstart-95,y=>$ystart,
+     'font-family' => 'Arial',
+     'font-size' => '14px'     
+)->cdata("Nipponbare");
+#### line
+$svg = line($xstart, $ystart, $xstart+375, $ystart, $svg);
+#### Ditto
+$svg = transposon_minus($xstart+20,$ystart-$width/2,45,$width,' ','TAA','Ditto','lightblue',$svg);
+#### Inversion
+$svg = transposon_plus($xstart+90,$ystart-$width/2,150,$width,' ',' ','Inversion','gray',$svg);
+#### Fragment
+$svg = transposon_plus($xstart+270,$ystart-$width/2,15,$width,'TTA','TAA',' ', 'green',$svg);
+return $svg;
+}
 #################
 sub Pre_inversion{
 my $xstart=100; ## x start of line
-my $ystart=180; ## y start of line
-my $interval=120; ## interval between different strain
+my $ystart=160; ## y start of line
+my $interval=100; ## interval between different strain
 my $width=30; ## width of chr
+#### title
+my $title=$svg->text(
+     x=>$xstart-95,y=>$ystart,
+     'font-family' => 'Arial',
+     'font-size' => '14px' 
+)->cdata("Pre-inversion");
+
 #### line
 $svg = line($xstart, $ystart, $xstart+575, $ystart, $svg);
 #### Ditto
-$svg = transposon_minus($xstart+20,$ystart-$width/2,45,$width,' ','Ditto','lightblue',$svg);
+$svg = transposon_minus($xstart+20,$ystart-$width/2,45,$width,' ',' ','Ditto','lightblue',$svg);
 #### mPing1
-$svg = transposon_plus($xstart+90,$ystart-$width/2,45,$width,'TAA','mPing','orange',$svg);
+$svg = transposon_plus($xstart+90,$ystart-$width/2,45,$width,'TAA','TAA','mPing','orange',$svg);
 #### inversion
-$svg = transposon_plus($xstart+165,$ystart-$width/2,150,$width,' ','Inversion','gray',$svg);
+$svg = transposon_plus($xstart+165,$ystart-$width/2,150,$width,' ',' ','Inversion','gray',$svg);
 #### mPing2
-$svg = transposon_minus($xstart+400,$ystart-$width/2,45,$width,'TTA','mPing','orange',$svg);
+$svg = transposon_minus($xstart+350,$ystart-$width/2,45,$width,'TTA','TTA','mPing','orange',$svg);
 #### Fragment
-$svg = transposon_plus($xstart+460,$ystart-$width/2,15,$width,' ',' ', 'green',$svg);
+$svg = transposon_plus($xstart+420,$ystart-$width/2,15,$width,' ',' ',' ', 'green',$svg);
 #### mPing3
-$svg = transposon_minus($xstart+500,$ystart-$width/2,45,$width,'TAA','mPing','orange',$svg);
+$svg = transposon_minus($xstart+470,$ystart-$width/2,45,$width,'TAA','TAA','mPing','orange',$svg);
 
 return $svg;
 }
@@ -58,34 +87,100 @@ return $svg;
 #################
 sub Inversion_intrachr{
 my $xstart=100; ## x start of line
-my $ystart=300; ## y start of line
-my $interval=120; ## interval between different strain
+my $ystart=260; ## y start of line
+my $interval=100; ## interval between different strain
 my $width=30; ## width of chr
 #### line
-$svg = line($xstart, $ystart, $xstart+275, $ystart, $svg);
+$svg = line($xstart+60, $ystart, $xstart+275, $ystart, $svg);
 #### inversion
 $svg = curve_chr($xstart+300, $ystart-$width/2, $xstart+300, $ystart+$interval+$width/2, $width, 'Inversion', $svg);
 #### Ditto
-$svg = transposon_minus($xstart+20,$ystart-$width/2,45,$width,' ','Ditto','lightblue',$svg);
+$svg = transposon_minus($xstart+80,$ystart-$width/2,45,$width,' ', ' ','Ditto','lightblue',$svg);
 #### mPing1
-$svg = transposon_plus($xstart+90,$ystart-$width/2,45,$width,'TAA','mPing','orange',$svg);
+$svg = transposon_plus($xstart+150,$ystart-$width/2,45,$width,'TAA','TAA','mPing','orange',$svg);
 #### start part of inversion
-$svg = transposon($xstart+165,$ystart-$width/2,140,$width,' ',' ','gray',$svg);
+$svg = transposon($xstart+225,$ystart-$width/2,80,$width,' ',' ',' ','gray',$svg);
 
 #### line 
-$svg = line($xstart, $ystart+$interval, $xstart + 250, $ystart+$interval, $svg);
+$svg = line($xstart+60, $ystart+$interval, $xstart + 250, $ystart+$interval, $svg);
 #### mPing3
-$svg = transposon_plus($xstart+90,$ystart+$interval-$width/2,45,$width,'TTA','mPing','orange',$svg);
+$svg = transposon_plus($xstart+90,$ystart+$interval-$width/2,45,$width,'TTA','TTA','mPing','orange',$svg);
 #### Fragment
-$svg = transposon_minus($xstart+170,$ystart+$interval-$width/2,15,$width,' ',' ', 'green',$svg);
+$svg = transposon_minus($xstart+170,$ystart+$interval-$width/2,15,$width,' ',' ',' ', 'green',$svg);
 #### mPing2
-$svg = transposon_plus($xstart+210,$ystart+$interval-$width/2,45,$width,'TAA','mPing','orange',$svg);
+$svg = transposon_plus($xstart+210,$ystart+$interval-$width/2,45,$width,'TAA','TAA','mPing','orange',$svg);
 #### end part of inversion
-$svg = transposon_minus($xstart+290,$ystart+$interval-$width/2,12,$width,' ',' ', 'gray',$svg);
+$svg = transposon_minus($xstart+290,$ystart+$interval-$width/2,12,$width,' ',' ',' ', 'gray',$svg);
+
+#### replication line
+my $lstartx = $xstart+80;
+my $lstarty = $ystart+$width/2+5;
+my $lx1 = $xstart+165;
+my $ly1 = $lstarty;
+my $lx2 = $xstart+100;
+my $ly2 = $ystart+$interval-$width/2 - 15;
+my $lx3 = $xstart+250;
+my $ly3 = $ly2;
+my $lx4 = $xstart+290;
+my $ly4 = $ly2;
+my $lx5 = $lx4;
+my $ly5 = $ly1;
+my $lx6 = $xstart+225;
+my $ly6 = $ly1;
+my $lx7 = $lx4;
+my $ly7 = $ly2+5;
+my $lx8 = $xstart + 70;
+my $ly8 = $ly2+5;
+my $string = "M$lstartx,$lstarty L$lx1,$ly1 L$lx2,$ly2 L$lx3,$ly3 A5,2 0 0,1 $lx4,$ly4 A30,30 0 0,0 $lx5,$ly5 L$lx6,$ly6 L$lx7,$ly7 L$lx8,$ly8";
+print "$string\n";
+my $tag = $svg->path(
+         d => $string,
+         style => {
+              'fill' => 'none',
+              'stroke' => 'black'
+             #'fill'   => 'green', 
+         }
+    );
+
 
 return $svg;
 }
 
+#################
+sub HEG4{
+my $xstart=100; ## x start of line
+my $ystart=460; ## y start of line
+my $interval=120; ## interval between different strain
+my $width=30; ## width of chr
+#### title
+my $title=$svg->text(
+     x=>$xstart-95,y=>$ystart,
+     'font-family' => 'Arial',
+     'font-size' => '14px'	 
+)->cdata("HEG4");
+
+#### line
+$svg = line($xstart, $ystart, $xstart+680, $ystart, $svg);
+#### Ditto
+$svg = transposon_minus($xstart+20,$ystart-$width/2,45,$width,' ',' ','Ditto','lightblue',$svg);
+#### mPing1
+$svg = transposon_plus($xstart+90,$ystart-$width/2,45,$width,'TAA','TTA','mPing','orange',$svg);
+#### Fragment2
+$svg = transposon_minus($xstart+170,$ystart-$width/2,15,$width,' ',' ',' ', 'green',$svg);
+#### mPing2 partial
+$svg = transposon($xstart+210,$ystart-$width/2,35,$width,'TAA','TGGCATGC','mPing','orange',$svg);
+
+#### inversion
+$svg = transposon_minus($xstart+317,$ystart-$width/2,150,$width,' ',' ','Inversion','gray',$svg);
+#### mPing2
+$svg = transposon_minus($xstart+497,$ystart-$width/2,45,$width,'TTA','TTA','mPing','orange',$svg);
+#### Fragment
+$svg = transposon_plus($xstart+565,$ystart-$width/2,15,$width,' ',' ',' ', 'green',$svg);
+#### mPing3
+$svg = transposon_minus($xstart+615,$ystart-$width/2,45,$width,'TAA','TAA','mPing','orange',$svg);
+
+return $svg;
+}
 
 
 ##################
@@ -172,7 +267,7 @@ return $svg;
 #Draw box of transposon or gene
 ##############
 sub transposon{
-my ($x1,$y1,$width,$height,$tsd,$title,$color,$svg)=@_;
+my ($x1,$y1,$width,$height,$tsdl,$tsdr,$title,$color,$svg)=@_;
 my $x_upl=$x1;
 my $x_upr=$x1+$width;
 my $x_downl=$x1;
@@ -211,11 +306,11 @@ my $tsd_y  = $y1 + $height/2;
 my $tsd_left = $svg->text(
        x => $tsd_x1, y => $tsd_y,
        'text-anchor' => 'start'
-   )->cdata($tsd);
+   )->cdata($tsdl);
 my $tsd_right = $svg->text(
        x => $tsd_x2, y => $tsd_y,
        'text-anchor' => 'start'
-   )->cdata($tsd);
+   )->cdata($tsdr);
 
 return $svg;
 }
@@ -224,7 +319,7 @@ return $svg;
 #Draw box of transposon or gene on plus strand
 ##############
 sub transposon_plus{
-my ($x1,$y1,$width,$height,$tsd,$title,$color,$svg)=@_;
+my ($x1,$y1,$width,$height,$tsdl,$tsdr,$title,$color,$svg)=@_;
 my $x_upl=$x1;
 my $x_upr=$x1+$width;
 my $x_downl=$x1;
@@ -266,11 +361,11 @@ my $tsd_y  = $y1 + $height/2;
 my $tsd_left = $svg->text(
        x => $tsd_x1, y => $tsd_y,
        'text-anchor' => 'start'
-   )->cdata($tsd);
+   )->cdata($tsdl);
 my $tsd_right = $svg->text(
        x => $tsd_x2, y => $tsd_y,
        'text-anchor' => 'start'
-   )->cdata($tsd);
+   )->cdata($tsdr);
 
 return $svg;
 }
@@ -279,7 +374,7 @@ return $svg;
 #Draw box of transposon or gene on minus strand
 ##############
 sub transposon_minus{
-my ($x1,$y1,$width,$height,$tsd,$title,$color,$svg)=@_;
+my ($x1,$y1,$width,$height,$tsdl,$tsdr,$title,$color,$svg)=@_;
 my $x_upl=$x1;
 my $x_upr=$x1+$width;
 my $x_downl=$x1;
@@ -321,11 +416,11 @@ my $tsd_y  = $y1 + $height/2;
 my $tsd_left = $svg->text(
        x => $tsd_x1, y => $tsd_y,
        'text-anchor' => 'start'
-   )->cdata($tsd);
+   )->cdata($tsdl);
 my $tsd_right = $svg->text(
        x => $tsd_x2, y => $tsd_y,
        'text-anchor' => 'start'
-   )->cdata($tsd);
+   )->cdata($tsdr);
 
 return $svg;
 }
